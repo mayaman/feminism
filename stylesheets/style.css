@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #DF4CA2;
+  width: 400%;
+  height: 100%;
+  position: absolute;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: purple;
+}
+
+.jumbo h1 {
+display: block;
+width: 400px;
+height: 150px;
+margin-left: 400px;
+font-size: 2.5em;
+padding: 15px;
+padding-top: 50px;
+position: absolute;
+opacity: .8;
+border-radius: 6px;
+text-align: center;
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2e/Notecard.jpg);
+font-family: 'Special Elite', cursive;
+border: 1px solid black;
+}
+
+.jumbo h1:hover {
+  opacity: .5;
+  background-color: white;
+  background-image: none;
+  cursor: pointer;
+}
+
+.bechdel {
+  background: #8C91CC;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+.bechdel a {
+  font-family: 'Special Elite', cursive;
+/*  font-family: 'Homemade Apple', cursive;*/  
+  text-align: center;
+  font-size: 2em;
+  color: black;
+  text-decoration: none !important;
+  border-bottom: 1px solid black;
+}
+
+.bechdel a:hover {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+.bechdel img {
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.bechdel img#pass {
+  background: #71CC6A;
+}
+
+.bechdel img#fail {
+  background: #871D2F;
+}
+
+.quote {
+  width: 200px;
+  font-family: 'Homemade Apple', cursive;
+  background: white;
+  display: inline-block;
+  margin-left: 700px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 3px solid purple;
+}
+
+.quote:hover {
+  background: purple;
+}
+
+.sticker {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.sticker-1 .sticker-img {
+  background-image: url(http://ih1.redbubble.net/image.69475262.8128/fc,550x550,white.u3.jpg);
+  background-size: 110%;
+}
+.sticker-2 .sticker-img {
+background-image: url(http://ih0.redbubble.net/image.80134644.8975/sticker,220x200-pad,220x200,ffffff.u1.jpg);
+background-size: 100%;
+}
+
+.sticker-3 .sticker-img {
+background-image: url(https://s-media-cache-ak0.pinimg.com/236x/d0/2a/dc/d02adc5e457fab6f6e80b50657fa3411.jpg);
+background-size: 100%;
+}
+
+.sticker-4 .sticker-img {
+background-image: url(http://rlv.zcache.com/sushi_rolls_not_gender_roles_sticker-r77e56e423cf8458289863f0884b1aab5_v9waf_8byvr_324.jpg);
+background-size: 100%;
+}
