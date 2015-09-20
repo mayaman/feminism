@@ -7,7 +7,7 @@ body {
   margin: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: #DF4CA2;
-  width: 1000%;
+  width: 830%;
   height: 100%;
   position: absolute;
 }
@@ -159,6 +159,6 @@ a img.film:hover {
 }
 
 footer img {
-  height: 150px;
+  height: 125px;
   margin-right: -8px;
 }
